@@ -6,6 +6,21 @@
         "test": "set NODE_ENV=&&karma start karma.conf.js",
         "full-test": "set NODE_ENV=test&&karma start karma.conf.js"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/russdawginteractive/my-karma-seed"
+    },
+    "author": "https://github.com/bbraithwaite",
+    "license": "ISC",
+    "keywords": [
+        "karma",
+        "seed",
+        "project"
+    ],
+    "bugs": {
+        "url": "https://github.com/russdawginteractive/my-karma-seed/issues"
+    },
+    "homepage": "https://github.com/russdawginteractive/my-karma-seed",
     "devDependencies": {
         "chai": "^3.5.0",
         "cross-env": "^4.0.0",
