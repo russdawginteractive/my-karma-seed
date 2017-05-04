@@ -1,0 +1,25 @@
+{
+    "name": "karma-seed",
+    "version": "1.0.0",
+    "description": "My own version of karma seed. Taken from http://www.bradoncode.com/blog/2015/02/27/karma-tutorial/",
+    "scripts": {
+        "test": "set NODE_ENV=&&karma start karma.conf.js",
+        "full-test": "set NODE_ENV=test&&karma start karma.conf.js"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "cross-env": "^4.0.0",
+        "jasmine-core": "^2.6.1",
+        "karma": "^1.6.0",
+        "karma-chai": "^0.1.0",
+        "karma-chrome-launcher": "^2.1.0",
+        "karma-coverage": "^1.1.1",
+        "karma-fixture": "^0.2.6",
+        "karma-html2js-preprocessor": "^1.1.0",
+        "karma-jasmine": "^1.1.0",
+        "karma-json-fixtures-preprocessor": "0.0.6",
+        "karma-mocha": "^1.3.0",
+        "karma-phantomjs-launcher": "^1.0.4",
+        "mocha": "^3.3.0"
+    }
+}
